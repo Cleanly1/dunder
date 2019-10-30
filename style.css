@@ -52,17 +52,7 @@ img {
   width:100%;
   background-color: white;
 }
-@media screen and (max-width:414px) {
-  h1 {
-    font-size: 100px;
-  }
-  .part1 {
-    height: 65vh;
-  }
-  .part2 {
-    height: 35vh;
-  }
-}
+
 @media screen and (max-width:414px) {
   h1 {
     font-size: 100px;
