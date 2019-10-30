@@ -40,18 +40,18 @@ img {
 .part2 {
   height: 100vh;
   width:100%;
-  background: linear-gradient(180deg, #000000 0%, rgba(29, 29, 29, 0) 4.17%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 5.21%), #1D1D1D;
+  background: linear-gradient(180deg, #000000 0%, rgba(29, 29, 29, 0) 2%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
 }
 .part3 {
   height: 100vh;
   width:100%;
-  background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 3.65%), #2E2E2E;
+  background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
 }
 
 .part4 {
   height: 100vh;
   width:100%;
-  background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 3.13%), #5B5B5B;
+  background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
 }
 .part5 {
   height: 100vh;

@@ -13,11 +13,7 @@ function findHighestNode(nodesList) {
 }
 
 findHighestNode(document.documentElement.childNodes);
-
-// The entire page height is found
-console.log('Page height is', pageHeight);
-
-
+ 
 const scrollDown = function(){
   window.scrollTo({
     top: pageHeight,
