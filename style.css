@@ -19,8 +19,19 @@ h1 {
 
 img {
   align-self: center;
-  margin-top: -300px;
-  width: 80vw;
+  margin-top: 100px;
+  width: 50vw;
+}
+.scrollDown {
+  position: absolute;
+  color:white;
+  right: 20px;
+  bottom: 20px;
+  height: 40px;
+  width: 100px;
+}
+.scrollDown:hover {
+  cursor: pointer;
 }
 
 .part1 {
@@ -56,6 +67,14 @@ img {
 @media screen and (max-width:414px) {
   h1 {
     font-size: 100px;
+  }
+  .scrollDown {
+    position: absolute;
+    color:white;
+    right: 20px;
+    bottom: 40vh;
+    height: 40px;
+    width: 100px;
   }
   .part1 {
     height: 65vh;
