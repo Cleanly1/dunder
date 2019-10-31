@@ -88,6 +88,12 @@ span {
   width:414px;
   background-color: white;
 }
+.subTitle {
+
+  font-family: 'Wire One', sans-serif;
+
+  
+}
 
 .heroImage {
   align-self: center;
@@ -169,8 +175,4 @@ span {
     width:100%;
     background-color: white;
   }
-  h2 .subtitle {
-    margin: 50px 0;
-    text-align: center;
-    font-family: 'Wire One', sans-serif;
-}
+  
