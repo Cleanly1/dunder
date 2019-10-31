@@ -12,7 +12,11 @@ h1 {
   font-weight: 100; 
   text-align: center;
   color: #CB1F03;
-} 
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
 .partTitle{
   margin-top: 10px;
   font-family: 'Staatliches', cursive;
@@ -87,12 +91,16 @@ span {
   height: 100vh;
   width:414px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 .subTitle {
-
   font-family: 'Wire One', sans-serif;
-
-  
+  font-size: 34px;
+  text-align: center;
+}
+.orderBox {
+  width: 50%;
 }
 
 .heroImage {
