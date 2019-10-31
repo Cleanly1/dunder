@@ -13,6 +13,20 @@ h1 {
   text-align: center;
   color: #CB1F03;
 } 
+.partTitle{
+  margin-top: 10px;
+  font-family: 'Staatliches', cursive;
+  color:#CB1F03;
+  font-size: 40px;
+}
+.slogan {
+  color:white;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+}
+.white {
+  color:white;
+}
 .scrollDown {
   position: absolute;
   font-family: 'Staatliches', cursive;
@@ -59,10 +73,21 @@ h1 {
   background-color: white;
 }
 
-img {
+.heroImage {
   align-self: center;
-  margin-top: 100px;
-  width: 50vw;
+  margin-top: 70px;
+  width: 60vw;
+}
+.snowWhite {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.doctor{
+  width: 40vw;
+  border-radius: 10000px;
+  margin-right:10px;
 }
 
 .scrollDown:hover {
