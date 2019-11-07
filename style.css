@@ -37,8 +37,8 @@ section {
   background-color: white;
   font-size: 40px;
   color:black;
-  right: 5vw;
-  bottom: 31vh;
+  right: 10px;
+  bottom: 34vh;
   height: 40px;
   width: 110px;
   padding: 10px 10px;
@@ -47,8 +47,9 @@ section {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  height: 64vh;
+  height: 100vh;
   width: 100%;
+  background: linear-gradient(180deg, #000000 59%, rgba(29, 29, 29, 1) 60%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
 }
 .part2 {
   display: flex;
@@ -56,7 +57,7 @@ section {
   justify-content: center;
   height: 36vh;
   width: 100%;
-  background: linear-gradient(180deg, #000000 0%, rgba(29, 29, 29, 0) 2%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
+  margin-bottom:20px;
 }
 .textPart2 {
   display: flex;
@@ -283,22 +284,22 @@ button > span {
   }
   
   .part1 {
-    height: 100vh;
+    height: 200vh;
+    background: linear-gradient(180deg, #000000 49%, rgba(29, 29, 29, 0) 51%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
   }
   .part2 {
     height: 100vh;
     width:100%;
-    background: linear-gradient(180deg, #000000 0%, rgba(29, 29, 29, 0) 2%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
+    
     display: flex;
     flex-flow:row nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
   .textPart2 {
     display: flex;
     flex-flow: column nowrap;
-    font-family: 'Zhi Mang Xing', cursive;
-    margin: 5px 5vh;
+    font-family: 'Zhi Mang Xing', cursive; 
     font-size: 120px;
     text-align: center;
     color: #CB1F03;
@@ -330,8 +331,7 @@ button > span {
     flex-flow: column wrap;
     font-family: 'Wire One', sans-serif;
     text-align: center;
-    margin: 0 0;
-    
+    margin: 0 0; 
     height: 200px;
   }
   .h2Part5 {
@@ -345,7 +345,7 @@ button > span {
     margin: 5px 0;
   }
   .snowWhite {
-    
+    align-self: flex-end;
   }
   .doctor{
     width: 20vw;
