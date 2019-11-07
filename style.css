@@ -67,7 +67,7 @@ section {
   text-align: center;
   color: #CB1F03;
 }
-span {
+.procent {
   font-size: 60px;
   color: white;
 }
@@ -115,7 +115,7 @@ span {
   width:414px;
   background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D5D5;
 }
-section.Part5 {
+section.section5 {
   display: flex;
   flex-direction: column;
   font-family: 'Wire One', sans-serif;
@@ -126,10 +126,10 @@ section.Part5 {
   font-size: 42px;
   margin: 0;
 }
-section.Part5 > p {
+section.section5 > p {
   font-size: 28px;
 }
-.snowWhite > h2 {
+.doctorName {
   font-family: 'Wire One', sans-serif;
   font-size: 42px;
 }
@@ -207,22 +207,38 @@ button > span {
   }
   h1 {
     font-family: 'Zhi Mang Xing', cursive;
-    font-size: 120px;
+    font-size: 130px;
     font-weight: 100;
     margin:0 auto;
     text-align: center;
     color: #CB1F03;
   } 
+  .partTitle{
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    color:#CB1F03;
+    font-size: 80px;
+  }
+  .white {
+    color:white;
+  }
+  .slogan {
+    font-size:50px;
+  }
+  .heroImage {
+    width:45vw;
+    margin:0;
+  }
   .scrollDown {
     position: absolute;
     font-family: 'Staatliches', cursive;
     background-color: white;
-    font-size: 40px;
+    font-size: 80px;
     color:black;
     right: 20px;
     bottom: 20px;
-    height: 40px;
-    width: 110px;
+    height: 80px;
+    width: 215px;
     padding: 10px 10px;
   }
   
@@ -233,6 +249,23 @@ button > span {
     height: 100vh;
     width:100%;
     background: linear-gradient(180deg, #000000 0%, rgba(29, 29, 29, 0) 2%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .textPart2 {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Zhi Mang Xing', cursive;
+    margin: 5px 5vh;
+    font-size: 120px;
+    text-align: center;
+    color: #CB1F03;
+  }
+  .procent {
+    font-size: 200px;
+    height:180px;
   }
   .part3 {
     height: 100vh;
@@ -249,6 +282,33 @@ button > span {
     height: 100vh;
     width:100%;
     background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D5D5;
+  }
+  .section5 {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Wire One', sans-serif;
+    text-align: center;
+    margin: 0 0;
+    width: 100vw;
+    height: 200px;
+  }
+  .h2Part5 {
+    width:470px;
+    font-size: 72px;
+    margin: 0;
+  }
+  section.section5 > p {
+    font-size: 38px;
+    width: 470px;
+    margin: 5px 0;
+  }
+  .doctor{
+    width: 20vw;
+    border-radius: 100px;
+    margin-right: 10px;
+  }
+  .doctorName {
+    font-size:72px;
   }
   .part6 {
     height: 100vh;
