@@ -75,21 +75,32 @@ span {
   height: 100vh;
   width:414px;
   background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
-  padding: 0 20px;
+  
 }
-.quotes {
+.quoteBlock {
   display:flex;
   flex-flow: row wrap;
   align-items: center;
-  
+  margin: auto 20px
 }
 .names {
   font-size: 30px;
   margin:0 20px;
 }
-.faceImages {
-  width:100px;
-  margin:0;
+.faceImageTina {
+  width: 72px;
+  height: 112.19px;
+  
+}
+.faceImagePersbrandt {
+  width: 77px;
+  height: 107px;
+  
+}
+.faceImagePlura {
+  width: 100px;
+  
+  
 }
 
 .part4 {
