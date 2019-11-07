@@ -23,20 +23,19 @@ const scrollDown = function(){
   
 }
 
-const buttonClick = function(){
+const buttonClick0 = function(){
   window.document.getElementsByClassName('orderBox')[0].style.background = '#d8d5d5';
   window.document.getElementsByClassName('orderBox')[1].style.background = '#FFFFFF';
 }
 
-const buttonClick2 = function(){
+const buttonClick1 = function(){
   window.document.getElementsByClassName('orderBox')[1].style.background = '#d8d5d5';
   window.document.getElementsByClassName('orderBox')[0].style.background = '#FFFFFF';
 }
 
 
-window.document.getElementsByClassName('orderBox')[0].addEventListener("click", buttonClick);
+window.document.getElementsByClassName('orderBox')[0].addEventListener("click", buttonClick0);
 
-window.document.getElementsByClassName('orderBox')[1].addEventListener("click", buttonClick2);
-
+window.document.getElementsByClassName('orderBox')[1].addEventListener("click", buttonClick1); 
 
 window.document.getElementsByClassName('scrollDown')[0].addEventListener("click", scrollDown);
