@@ -113,7 +113,7 @@ section {
 .part5 {
   height: 100vh;
   width:414px;
-  background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D5D5;
+  background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D8D8;
 }
 section.section5 {
   display: flex;
@@ -283,7 +283,7 @@ button > span {
     flex-flow: column nowrap;
     height: 100vh;
     width:100%;
-    background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D5D5;
+    background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D8D8;
   }
   .section5 {
     display: flex;
