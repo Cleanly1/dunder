@@ -55,7 +55,7 @@ section {
   flex-flow: row wrap;
   justify-content: center;
   height: 36vh;
-  width:414px;
+  width:100%;
   background: linear-gradient(180deg, #000000 0%, rgba(29, 29, 29, 0) 2%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
 }
 .textPart2 {
@@ -126,7 +126,7 @@ section.section5 {
   font-size: 42px;
   margin: 0;
 }
-section.section5 > p {
+.infoText {
   font-size: 28px;
 }
 .doctorName {
@@ -252,7 +252,7 @@ button > span {
     display: flex;
     flex-flow:row nowrap;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
   }
   .textPart2 {
     display: flex;
@@ -279,6 +279,8 @@ button > span {
     background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
   }
   .part5 {
+    display: flex;
+    flex-flow: column nowrap;
     height: 100vh;
     width:100%;
     background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D5D5;
@@ -289,7 +291,7 @@ button > span {
     font-family: 'Wire One', sans-serif;
     text-align: center;
     margin: 0 0;
-    width: 100vw;
+    
     height: 200px;
   }
   .h2Part5 {
@@ -297,10 +299,13 @@ button > span {
     font-size: 72px;
     margin: 0;
   }
-  section.section5 > p {
-    font-size: 38px;
+  .infoText {
+    font-size: 42px;
     width: 470px;
     margin: 5px 0;
+  }
+  .snowWhite {
+    
   }
   .doctor{
     width: 20vw;
@@ -314,4 +319,47 @@ button > span {
     height: 100vh;
     width:100%;
     background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
   }
+  .subTitle {
+    font-family: 'Wire One', sans-serif;
+    font-size: 34px;
+    text-align: center;
+  }
+  .orderBox {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #828282;
+    margin: auto;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    color:#CB1F03;
+    font-size: 40px;
+  }
+  div .orderBox > svg {
+    margin: 40px 0px 0px 0px;
+  }
+  .orderButton {
+    background-color: #CB1F03;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 36px;
+    font-family: 'Staatliches';
+    height: 60px;
+  }
+  .orderBox:hover {
+    background-color: #d8d5d5;
+  }
+  .orderBoxText {
+    margin:40px 0;
+  }
+  button > span {
+    font-size: 1em;
+  }
+}
