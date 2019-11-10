@@ -4,7 +4,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width:414px;
+  width:100%;
 }
 h1 {
   font-family: 'Zhi Mang Xing', cursive;
@@ -49,7 +49,7 @@ section {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #000000 59%, rgba(29, 29, 29, 1) 60%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
+  background: linear-gradient(180deg, #000000 59%, rgba(29, 29, 29, 1) 60%), linear-gradient(360deg, #2E2E2E 60%, rgba(46, 46, 46, 0) 40%), #1D1D1D;
 }
 .part2 {
   display: flex;
@@ -69,7 +69,7 @@ section {
   color: #CB1F03;
 }
 
-.procent {
+.percentage {
   font-size: 80px;
   color: white;
 }
@@ -79,7 +79,7 @@ section {
   background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
   
 }
-h1.partTitle.white.section3 {
+.hej {
   margin-top: 34px;
   font-family: 'Wire One';
   font-size: 46px;
@@ -105,11 +105,12 @@ svg.stepSVG {
 .bottomSection3 {
   display: flex;
   flex-direction: column;
+  width:100%;
 }
 .svgMule {
   margin: 10px auto;
 }
-.percantagePart3 {
+.percentagePart3 {
   margin: 0 auto;
   font-family: 'Staatliches';
   font-size: 36px;
@@ -121,13 +122,30 @@ svg.stepSVG {
   margin: 10px auto;
 }
 
+.part4 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
+  display: flex;
+  flex-direction: column;
+}
 .quoteBlock {
   display:flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center;
   margin: auto 20px
 }
+.quote {
+  font-family: Wire One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  text-align:center;
+  margin:0;
+}
 .names {
+  font-family: 'Staatliches';
   font-size: 30px;
   margin:0 20px;
 }
@@ -141,17 +159,7 @@ svg.stepSVG {
   height: 107px;
 }
 .faceImagePlura {
-  width: 100px;
-  
-  
-}
-
-.part4 {
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
-  display: flex;
-  flex-direction: column;
+  width: 100px; 
 }
 .part5 {
   height: 100vh;
@@ -238,6 +246,16 @@ button > span {
 .scrollDown:hover {
   cursor: pointer;
 } 
+.scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  height:50px;
+  border-radius: 150px;
+  border: 1px solid black;
+  background-color: black;
+}
 @media screen and (min-width:1440px) {
   body {
     background-color: black;
@@ -306,7 +324,7 @@ button > span {
     text-align: center;
     color: #CB1F03;
   }
-  .procent {
+  .percentage {
     font-size: 200px;
     height:180px;
   }
@@ -329,7 +347,7 @@ button > span {
   .sectionPart3 {
     display: flex;
     flex-flow: row nowrap;
-    width:400px;
+    width: 400px;
     margin: 20px 20px;
   }
   
@@ -338,9 +356,51 @@ button > span {
     margin: 20px 20px;
   }
   .part4 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     height: 100vh;
     width:100%;
     background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
+  }
+  .quoteBlock {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20px;
+    width:40%;
+  }
+  .plura {
+    margin-top: 0;
+  }
+  .tina {
+    margin-bottom: 20px;
+  }
+  .quote {
+    font-family: Wire One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    text-align:center;
+    margin:0;
+  }
+  .names {
+    font-family: 'Staatliches';
+    font-size: 36px;
+    margin:0 20px;
+  }
+  .faceImageTina {
+    width: 72px;
+    height: 112.19px;
+    
+  }
+  .faceImagePersbrandt {
+    width: 77px;
+    height: 107px;
+  }
+  .faceImagePlura {
+    width: 100px; 
   }
   
   .part5 {
@@ -369,7 +429,8 @@ button > span {
     margin: 5px 0;
   }
   .snowWhite {
-    align-self: flex-end;
+    align-self: flex-start;
+    margin: 20px 9%;
   }
   .doctor{
     width: 20vw;
@@ -425,5 +486,15 @@ button > span {
   }
   button > span {
     font-size: 1em;
+  }
+  .scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    height:70px;
+    border-radius: 150px;
+    border: 1px solid black;
+    background-color: black;
   }
 }
