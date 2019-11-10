@@ -34,7 +34,7 @@ const buttonClick1 = function(){
 }
 
 const displayScroll = function() {
-  if (scrollY > 200) {
+  if (scrollY > 100) {
     window.document.getElementsByClassName('scrollTop')[0].style = 'display:flex;'
   }else {
     window.document.getElementsByClassName('scrollTop')[0].style = 'display:none;'
