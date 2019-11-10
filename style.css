@@ -38,7 +38,7 @@ section {
   font-size: 40px;
   color:black;
   right: 10px;
-  bottom: 34vh;
+  bottom: 45vh;
   height: 40px;
   width: 110px;
   padding: 10px 10px;
@@ -49,7 +49,7 @@ section {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #000000 59%, rgba(29, 29, 29, 1) 60%), linear-gradient(360deg, #2E2E2E 60%, rgba(46, 46, 46, 0) 40%), #1D1D1D;
+  background: linear-gradient(180deg, #000000 49%, rgba(29, 29, 29, 0) 51%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
 }
 .part2 {
   display: flex;
@@ -57,7 +57,7 @@ section {
   justify-content: center;
   height: 36vh;
   width: 100%;
-  margin-bottom:20px;
+  margin:20px auto;
 }
 .textPart2 {
   display: flex;
@@ -228,7 +228,7 @@ button > span {
 }
 .heroImage {
   align-self: center;
-  margin-top: 70px;
+  margin-top: 0px;
   width: 60vw;
 }
 .snowWhite {
@@ -375,7 +375,7 @@ button > span {
     margin-top: 0;
   }
   .tina {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .quote {
     font-family: Wire One;
