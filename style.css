@@ -26,34 +26,35 @@ section {
 .slogan {
   color:white;
   font-family: 'Staatliches', cursive;
-  font-size: 30px;
+  font-size: 40px;
+  text-align: center;
 }
 .white {
   color:white;
 }
 .scrollDown {
-  position: absolute;
   font-family: 'Staatliches', cursive;
   background-color: white;
   font-size: 40px;
   color:black;
-  right: 10px;
-  bottom: 45vh;
+  margin: 20px auto;
   height: 40px;
-  width: 110px;
+  width: 40%;
   padding: 10px 10px;
+  text-align: center;
 } 
 .part1 {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: background: linear-gradient(180deg, #000000 84.9%, #1D1D1D 100%), #000000;
+  background: linear-gradient(180deg, #000000 84.9%, #1D1D1D 100%), #000000;
 }
 .part2 {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   height: 100vh;
   width: 100%;
@@ -310,15 +311,15 @@ button > span {
   }
   
   .part1 {
-    height: 200vh;
-    background: linear-gradient(180deg, #000000 49%, rgba(29, 29, 29, 0) 51%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
+    height: 100vh;
+    background: background: linear-gradient(180deg, #000000 84.9%, #1D1D1D 100%), #000000;
   }
   
   .part2 {
     height: 100vh;
-    width:100%; 
+    width: 100%; 
     display: flex;
-    flex-flow:row nowrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
   }
