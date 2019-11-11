@@ -239,7 +239,8 @@ button > span {
 }
 .doctor{
   width: 40vw;
-  border-radius: 10000px;
+  border: 2px solid #828282;
+  border-radius: 50%;
   margin-right:10px;
 }
 
@@ -331,6 +332,7 @@ button > span {
   .part3 {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     height: 100vh;
     width:100%;
     background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
@@ -359,24 +361,29 @@ button > span {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width:100%;
     background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
+  }
+  .partTitle {
+    justify-content: flex-start;
+  }
+  .hej {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center;
+    justify-content: center;
   }
   .quoteBlock {
     display:flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    margin: auto 20px;
+    margin: 20px 20px;
     width:40%;
   }
-  .plura {
-    margin-top: 0;
-  }
-  .tina {
-    margin-bottom: 40px;
-  }
+  
   .quote {
     font-family: Wire One;
     font-style: normal;
@@ -406,6 +413,7 @@ button > span {
   .part5 {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-between;
     height: 100vh;
     width:100%;
     background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D8D8;
@@ -429,12 +437,13 @@ button > span {
     margin: 5px 0;
   }
   .snowWhite {
-    align-self: flex-start;
+    align-self: center;
     margin: 20px 9%;
   }
   .doctor{
     width: 20vw;
-    border-radius: 100px;
+    border: 2px solid #828282;
+    border-radius: 50%;
     margin-right: 10px;
   }
   .doctorName {
