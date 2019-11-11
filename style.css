@@ -214,11 +214,11 @@ div .orderBox > svg {
 }
 .orderButton {
   background-color: #CB1F03;
-  width: 80%;
+  width: 40%;
   margin: 50px auto;
   font-size: 36px;
   font-family: 'Staatliches';
-  height: 92px;
+  height: 72px;
 }
 .orderBox:hover {
   background-color: #d8d5d5;
@@ -496,12 +496,12 @@ button > span {
   }
   .orderButton {
     background-color: #CB1F03;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 40px;
     font-size: 36px;
     font-family: 'Staatliches';
-    height: 60px;
+    height: 72px;
   }
   .orderBox:hover {
     background-color: #d8d5d5;
