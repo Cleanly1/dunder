@@ -49,15 +49,15 @@ section {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #000000 49%, rgba(29, 29, 29, 0) 51%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
+  background: background: linear-gradient(180deg, #000000 84.9%, #1D1D1D 100%), #000000;
 }
 .part2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  height: 36vh;
+  height: 100vh;
   width: 100%;
-  margin:20px auto;
+  background: linear-gradient(180deg, #1D1D1D 90.1%, #2E2E2E 100%), #1D1D1D;
 }
 .textPart2 {
   display: flex;
