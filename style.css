@@ -275,22 +275,27 @@ button > span {
     text-align: center;
     color: #CB1F03;
   } 
+  
   .partTitle{
-    margin-top: 10px;
+    margin-top: 40px;
     font-family: 'Staatliches', cursive;
     color:#CB1F03;
     font-size: 80px;
   }
+  
   .white {
     color:white;
   }
+  
   .slogan {
     font-size:50px;
   }
+  
   .heroImage {
     width:45vw;
     margin:0;
   }
+  
   .scrollDown {
     position: absolute;
     font-family: 'Staatliches', cursive;
@@ -308,15 +313,16 @@ button > span {
     height: 200vh;
     background: linear-gradient(180deg, #000000 49%, rgba(29, 29, 29, 0) 51%), linear-gradient(360deg, #2E2E2E 0%, rgba(46, 46, 46, 0) 2%), #1D1D1D;
   }
+  
   .part2 {
     height: 100vh;
-    width:100%;
-    
+    width:100%; 
     display: flex;
     flex-flow:row nowrap;
     justify-content: space-evenly;
     align-items: center;
   }
+  
   .textPart2 {
     display: flex;
     flex-flow: column nowrap;
@@ -325,10 +331,12 @@ button > span {
     text-align: center;
     color: #CB1F03;
   }
+  
   .percentage {
     font-size: 200px;
     height:180px;
   }
+  
   .part3 {
     display: flex;
     flex-flow: column nowrap;
@@ -337,15 +345,18 @@ button > span {
     width:100%;
     background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
   }
+  
   .fullSection3 {
     align-self: center;
     display: flex;
     flex-flow: row nowrap;
     margin: 20px 20px;
   }
+  
   .part3 > .partTitle {
     align-self: center;
   }
+  
   .sectionPart3 {
     display: flex;
     flex-flow: row nowrap;
@@ -357,6 +368,7 @@ button > span {
     width:50%;
     margin: 20px 20px;
   }
+  
   .part4 {
     display: flex;
     flex-flow: column nowrap;
@@ -365,10 +377,13 @@ button > span {
     height: 100vh;
     width:100%;
     background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
+  } 
+  
+  .partTitlePart4 {
+    margin-top: 0;
+    margin-bottom: 45px;
   }
-  .partTitle {
-    justify-content: flex-start;
-  }
+  
   .fullSection4 {
     display: flex;
     flex-flow: row nowrap;
@@ -438,7 +453,8 @@ button > span {
   }
   .snowWhite {
     align-self: center;
-    margin: 20px 9%;
+    margin: 0 9%;
+    margin-bottom: 60px;
   }
   .doctor{
     width: 20vw;
@@ -480,7 +496,7 @@ button > span {
   }
   .orderButton {
     background-color: #CB1F03;
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 25px;
     font-size: 36px;
