@@ -344,7 +344,7 @@ button > span {
     justify-content: center;
     height: 100vh;
     width:100%;
-    background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
+    background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 10%), #2E2E2E;
   }
   
   .fullSection3 {
@@ -377,7 +377,7 @@ button > span {
     justify-content: center;
     height: 100vh;
     width:100%;
-    background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 2%), #5B5B5B;
+    background: linear-gradient(360deg, #D8D5D5 0%, rgba(91, 91, 91, 0) 10%), #5B5B5B;
   } 
   
   .partTitlePart4 {
@@ -432,7 +432,7 @@ button > span {
     justify-content: space-between;
     height: 100vh;
     width:100%;
-    background: linear-gradient(180deg, rgba(216, 213, 213, 0) 98%, #FFFFFF 100%), #D8D8D8;
+    background: linear-gradient(180deg, rgba(216, 213, 213, 0) 94%, #FFFFFF 100%), #D8D8D8;
   }
   .section5 {
     display: flex;
