@@ -80,12 +80,18 @@ section {
   background: linear-gradient(360deg, #5B5B5B 0%, rgba(91, 91, 91, 0) 2%), #2E2E2E;
   
 }
+
+.fullSection3 {
+  display: flex;
+  flex-flow: column nowrap;
+}
 .djungle {
   margin-top: 34px;
   font-family: 'Wire One';
   font-size: 46px;
 }
 section.sectionPart3 {
+  align-self: center;
   margin: 40px 20px;
 }
 .col2.Part3 {
